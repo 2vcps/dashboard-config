@@ -3,11 +3,11 @@ https://github.com/kubernetes/dashboard#kubernetes-dashboard
 
 For my lab running kubectl proxy was annoying. Basically running helm version of minecraft in my basement so I am going to expose this as a service.
 
-'''
+```
 $ kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
 $ kubectl proxy
 http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/
-'''
+```
 
 
 
